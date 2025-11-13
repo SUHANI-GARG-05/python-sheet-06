@@ -1,5 +1,5 @@
 T = int(input())
-for _ in range(T):
+for i in range(T):
     s = input().strip().lower()
     vowels = 0
     consonants = 0
@@ -10,3 +10,4 @@ for _ in range(T):
             else:
                 consonants += 1
     print(vowels, consonants)
+
